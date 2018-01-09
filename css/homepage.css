@@ -1,0 +1,143 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	min-width: 1536px;
+}
+/*top*/
+.top {
+	width: 100%;
+	height: 650px;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+}
+.jiantou {
+	display: none;
+	position: absolute;
+	height: 300px;
+    width: 95px; 
+    opacity: 0.7; 
+}
+.top:hover .jiantou {
+	display: block;
+	cursor: pointer;
+}
+.jiantouleft {    
+    left: 50px;
+    top: 145px;
+}
+.jiantouleft:hover {
+	opacity: 1;
+}
+.jiantouright {
+	right: 50px;
+	top: 170px;
+}
+.jiantouright:hover {
+	opacity: 1;
+}
+/*center*/
+.center {
+	height: 90px;
+	width: 100%;
+	background-color: #f7f6f4;
+	color: rgb(112,45,19);
+	font-size: 18px;
+}
+.lineleft {
+	float: left;
+	margin-left: 195px;
+	margin-top: 18px;
+	width: 480px;
+}
+.lineright{
+	float: right;
+	margin-right: 195px;
+	margin-top: 25px;
+	width: 480px;
+}
+.centerfont {
+	position: relative;
+    left: 15px;
+    top: 23px;
+}
+/*bottom*/
+.bottom {
+	height: 845px;
+	width: 100%;
+	background-color: #f7f6f4;
+}
+.foodtitle {
+	text-align: center;
+}
+.foodtitle:hover {
+	color: rgb(145,223,187);
+	cursor: pointer;
+}
+.foodtitle:hover .fontbottom {
+	box-shadow: 0 0 0 1px rgb(145,223,187);
+	background-color: rgb(145,223,187) !important;
+}
+.foodtitle:hover .fontbottom::before {	
+	background-color: rgb(145,223,187);
+	border:1px solid rgb(145,223,187);
+}
+.foodtitle:hover .fontbottom::after {	
+	background-color: rgb(145,223,187);
+	border:1px solid rgb(145,223,187);
+}
+.fontbottom {
+	display: block;  
+	width: 2px;  
+	height: 2px;  
+	border-radius: 50%; 
+	box-shadow: 0 0 0 1px #702d13;
+	position: relative;  
+	left: 138px;
+	background-color: #702d13 !important;
+}
+.fontbottom::before, .fontbottom::after {
+	position: relative;
+	display: inline-block;
+	width: 40px;
+	height: 0px;
+	border:1px solid #702d13;
+	background-color: #702d13;
+}
+.fontbottom::before {
+	content: '';
+	left: -50px;
+	top: -15px;
+} 
+.fontbottom::after {
+	content: '';
+	left: 7px;
+	top: -36px;
+}
+.bottom span {
+	font-size: 22px;
+}
+.bottom p {
+	font-size: 17px;
+}
+.showfood {
+	width: 280px;
+	height: 370px;
+	float: left;
+	margin-right: 150px;
+}
+.showfood img {
+	width: 280px;
+	height: 220px;
+}
+.firstfood {
+	margin-left: 195px;
+}
+.tiantianquan {
+	background-color: rgb(255,255,255);
+}

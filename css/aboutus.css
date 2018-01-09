@@ -1,0 +1,126 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	min-width: 1536px;
+	height: 1490px;
+}
+/*top*/
+.top {
+	width: 100%;
+	height: 650px;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+}
+.top .jiantou {
+	display: none;
+	position: absolute;
+	height: 300px;
+    width: 95px; 
+    opacity: 0.7; 
+}
+.top:hover .jiantou {
+	display: block;
+	cursor: pointer;
+}
+.top .jiantouleft {    
+    left: 50px;
+    top: 145px;
+}
+.top .jiantouright {
+	right: 50px;
+	top: 170px;
+}
+.top .jiantouleft:hover, .top .jiantouright:hover {
+	opacity: 1;
+}
+/*showpic*/
+.showpic {
+	float: left;
+	width: 907px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	left: 315px;
+	top: 650px;
+	z-index: 0;
+	border-radius: 15px;
+	display: none; 
+}
+.beshowpic {
+	position: relative;
+	top: 50px;
+}
+.showpic .jiantou {
+	height: 200px;
+	width: 80px;
+	margin-top: 100px;    
+    opacity: 0.5;
+}
+.showpic .jiantouleft {	
+	margin-left: 50px;
+	float: left;	
+}
+.showpic .jiantouright {
+	float: right;
+    margin-right: 50px;
+}
+.showpic .jiantouleft:hover, .showpic .jiantouright:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+.close {
+	width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0.5;
+}
+.close:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+/*center*/
+.center {
+	height: 110px;
+	width: 100%;
+	background-color: #f7f6f4;
+	color: rgb(112,45,19);
+	font-size: 22px;
+}
+.centerfont {
+	position: relative;
+    left: -3px;
+    top: 46px;
+}
+.lineleft {
+	float: left;
+	margin-left: 195px;
+	margin-top: 40px;
+	width: 480px;
+}
+.lineright{
+	float: right;
+	margin-right: 195px;
+	margin-top: 20px;
+	width: 480px;
+}
+/*bottom*/
+.bottom {
+	height: 750px;
+	width: 100%;
+	background-color: #f7f6f4;
+}
+.introduce {
+	width: 1145px;
+	position: relative;
+    left: 200px;
+    font-size: 20px;
+    line-height: 35px;
+}

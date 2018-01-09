@@ -1,0 +1,16 @@
+$(document).ready(function(){
+	$("#infor1").click(function(){
+		$("#beshowpic").attr("src","../img/infor.png");
+		$("#showpic").css("display","block");
+		$("#showpic").css("z-index","9999");
+	});
+	$("#infor2").click(function(){
+		$("#beshowpic").attr("src","../img/infor.png");
+		$("#showpic").css("display","block");
+		$("#showpic").css("z-index","9999");
+	});
+	$("#close").click(function(){
+		$("#showpic").css("display","none");
+		$("#showpic").css("z-index","0");
+	});
+});

@@ -1,0 +1,180 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	min-width: 1536px;
+	height: 1490px;
+}
+/*top*/
+.top {
+	width: 100%;
+	height: 650px;
+}
+.banner {
+	width: 100%;
+	height: 100%;
+}
+.top .jiantou {
+	display: none;
+	position: absolute;
+	height: 300px;
+    width: 95px; 
+    opacity: 0.7; 
+}
+.top:hover .jiantou {
+	display: block;
+	cursor: pointer;
+}
+.top .jiantouleft {    
+    left: 50px;
+    top: 145px;
+}
+.top .jiantouright {
+	right: 50px;
+	top: 170px;
+}
+.top .jiantouleft:hover, .top .jiantouright:hover {
+	opacity: 1;
+}
+/*showpic*/
+.showpic {
+	float: left;
+	width: 907px;
+	height: 400px;
+	background-color: rgba(0,0,0,0.3);
+	position: absolute;
+	left: 315px;
+	top: 650px;
+	z-index: 0;
+	border-radius: 15px;
+	display: none; 
+}
+.beshowpic {
+	position: relative;
+	top: 50px;
+}
+.showpic .jiantou {
+	height: 200px;
+	width: 80px;
+	margin-top: 100px;    
+    opacity: 0.5;
+}
+.showpic .jiantouleft {	
+	margin-left: 50px;
+	float: left;	
+}
+.showpic .jiantouright {
+	float: right;
+    margin-right: 50px;
+}
+.showpic .jiantouleft:hover, .showpic .jiantouright:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+.close {
+	width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    opacity: 0.5;
+}
+.close:hover {
+	cursor: pointer;
+	opacity: 0.8;
+}
+/*center*/
+.center {
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	color: rgb(20,147,253);
+	font-size: 20px;
+	background-color: rgb(247,246,244);
+}
+/*bottom*/
+.bottom {
+	height: 790px;
+	background-color: rgb(247,246,244);
+	width: 100%;
+	font-size: 13px;
+}
+.middle {
+	width: 12.63px;
+    margin-right: 37px;
+    margin-left: 37px;
+    float: left;
+}
+.middle img {
+	height: 770px;
+}
+.widthandheight {
+	height: 790px;
+	width: 410px;
+	float: left;
+}
+.left {
+	margin-left: 315px;
+	text-align: right;
+}
+.left img {
+	width: 410px;
+	height: 200px;
+}
+.bottom ul {
+	list-style: none;
+}
+.zhejiang {
+	position: relative;
+    top: 5px;
+}
+.guangdong {
+	position: relative;
+    top: 20px;
+}
+.henan {
+	position: relative;
+    top: 45px;
+}
+.fujian {
+	position: relative;
+    top: 105px;
+}
+.neimenggu {
+	position: relative;
+    top: 150px;
+}
+.right img {
+	width: 410px;
+	height: 200px;
+}
+.chongqing {
+	position: relative;
+    top: 110px;
+}
+.shanxi {
+	position: relative;
+    top: 118px;
+}
+.jiangsu {
+	position: relative;
+    top: 180px;
+}
+.hubei {
+	position: relative;
+    top: 225px;
+}
+.gansu {
+	position: relative;
+    top: 270px;
+}
+.shate {
+	position: relative;
+    top: 330px;
+}
+#infor2:hover, #infor1:hover {
+	cursor: pointer;
+}
