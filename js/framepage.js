@@ -32,13 +32,15 @@ $(document).ready(function(){
 					document.getElementById("iframe").src="storeinformation.html";
 				}else if (i == 3) {	
 					document.getElementById("iframe").src="aboutus.html";
-					companyinfo.style.cssText = "display: block;";
-					break;
 				}
 			}else{
 				nodeList[i].style.cssText = "background: null";
-				companyinfo.style.cssText = "display: none;";
 			}
+		}
+		if(target == nodeList[3]){
+			companyinfo.style.cssText = "display: block;";
+		}else{
+			companyinfo.style.cssText = "display: none;";
 		}
     });
     
